@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="50px" viewBox="0 0 167 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-2.000000, -13.000000)">
+            <text id="ABT" font-family="JosefinSans-Regular, Josefin Sans" font-size="65" font-weight="normal" letter-spacing="-1.39999998" fill="#FFFFFF">
+                <tspan x="0" y="62">ABT</tspan>
+            </text>
+            <g id="icon" transform="translate(121.000000, 15.000000)" fill="#DEC839" fill-rule="nonzero">
+                <path d="M23.65,0 C10.5892875,0 0,10.5892875 0,23.65 C0,36.7107125 10.5892875,47.3 23.65,47.3 C36.7107125,47.3 47.3,36.7107125 47.3,23.65 C47.3,10.5892875 36.7107125,0 23.65,0 Z M23.65,5.9125 C31.3465969,5.9125 37.8473906,10.8701312 40.3025562,17.7375 L6.99744375,17.7375 C9.45260937,10.8701312 15.9534031,5.9125 23.65,5.9125 Z M23.65,26.60625 C22.0166719,26.60625 20.69375,25.2833281 20.69375,23.65 C20.69375,22.0166719 22.0166719,20.69375 23.65,20.69375 C25.2833281,20.69375 26.60625,22.0166719 26.60625,23.65 C26.60625,25.2833281 25.2833281,26.60625 23.65,26.60625 Z M5.9125,23.65 C13.9904531,23.65 20.5326344,31.4338062 20.6701,41.0874406 C12.309825,39.6551375 5.9125,32.4093687 5.9125,23.65 Z M26.6299,41.0874406 C26.7673656,31.4338062 33.3095469,23.65 41.3875,23.65 C41.3875,32.4093687 34.990175,39.6551375 26.6299,41.0874406 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
