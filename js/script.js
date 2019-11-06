@@ -11,7 +11,7 @@ function scroll(val, el, timeout, step) {
     })();
   }
   
-scroll(6500, 'shethik-cifra1', 10, 30);
-scroll(12, 'shethik-cifra2', 100, 1);
-scroll(21, 'shethik-cifra3', 100, 1);
-scroll(12, 'shethik-cifra4', 100, 1);
+scroll(6500, 'shethik-cifra1', 20, 30);
+scroll(12, 'shethik-cifra2', 300, 1);
+scroll(21, 'shethik-cifra3', 250, 1);
+scroll(12, 'shethik-cifra4', 300, 1);

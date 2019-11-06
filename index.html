@@ -6,20 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Автошкола</title>
     <!-- Style .css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Header .css -->
-    <link rel="stylesheet" href="main-header.css">
+    <link rel="stylesheet" href="css/main-header.css">
     <!-- Responsive .css -->
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Features .css -->
-    <link rel="stylesheet" href="features.css"> 
-    <!-- FunFact -->
-    <link rel="stylesheet" href="funfact.css">
+    <link rel="stylesheet" href="css/features.css"> 
+    <!-- FunFact .css -->
+    <link rel="stylesheet" href="css/funfact.css">
+    <!-- Review .css -->
+    <link rel="stylesheet" href="css/fiew.css">
+    <!-- Instructors .css -->
+    <link rel="stylesheet" href="css/instructor.css">
+    <!-- Footer .css -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Price .css -->
+    <link rel="stylesheet" href="css/pricing.css">
+    <!-- Questions .css -->
+    <link rel="stylesheet" href="css/questions.css">
+    <!-- Animate .css -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Fontawesome .css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
     <main>
+        <!-- Menu -->
         <div class="header">
             <div class="logotype">
                 <a href="index.html" class="logo"><img id="logo_img" src="img/white-logo.svg" alt="logo" /></a>
@@ -27,7 +40,7 @@
             <div class="main-header">
                 <nav>
                     <ul id="navbar">
-                        <li class="active"><a href="#">главная</a></li>
+                        <li class="active"><a href="index.html">главная</a></li>
                         <li><a href="#">курсы<i class="icofont icofont-simple-down"></i></a>
                             <ul>
                                 <li><a href="#">Категория А</a></li>    
@@ -39,28 +52,30 @@
                             </ul>
                         </li>
                         <li><a href="#">галерея</a></li>
-                        <li><a href="#">прайс</a></li>
-                        <li><a href="#">контакты</a></li>
+                        <li><a href="#pric-id">прайс</a></li>
+                        <li><a href="#contact-id">контакты</a></li>
                         <li><a href="#">Онлайн обучение</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
+        
+        <!-- Main-page -->
         <div class="main-block">
             <div class="no"></div>
             <div class="title-block">
-                <p>На все Категории</p>
-                <h2>Скидки <span>-30%</span></h2>
-                <small>Свой автопарк и учебная площадка</small>
-                <button class="button-1">Записаться</button>
-                <button class="button-2">Онлайн обучение</button>
+                <p class="wow fadeInRight" data-wow-delay=".4s">На все Категории</p>
+                <h2 class="wow fadeInRight" data-wow-delay=".4s">Скидки <span>-30%</span></h2>
+                <small class="wow fadeInRight" data-wow-delay=".4s">Свой автопарк и учебная площадка</small>
+                <button class="button-1 wow fadeInUp" data-wow-delay=".6s">Записаться</button>
+                <button class="button-2 wow fadeInUp" data-wow-delay=".6s">Онлайн обучение</button>
             </div>
         </div>
     </main>
 
     <!-- Features -->
     <div class="features">
-        <div class="title">
+        <div class="title wow fadeInUp" data-wow-delay=".6s">
             <p class="main-title">О нас</p>
             <p class="main-title-2">Автошкола №1 в г.Актобе! 20 лет на рынке!</p>
             <i class="fab fa-suse"></i>
@@ -69,21 +84,21 @@
         <!-- Features wrapper -->
         <!-- Left side -->
         <div class="features-wrapper features-1">
-            <div class="single-feature">
+            <div class="single-feature wow fadeInLeft" data-wow-delay=".5s">
                 <div class="icon"><i class="fas fa-file"></i></div>
                 <div class="text fix">
                     <h4>Все категории</h4>
                     <p>Возможность обучения на получение водительских удостоверений по всем категориям и подкатегориям</p>
                 </div>
             </div>
-            <div class="single-feature single-middle-1">
+            <div class="single-feature single-middle-1 wow fadeInLeft" data-wow-delay=".6s">
                 <div class="icon"><i class="fas fa-car"></i></div>
                 <div class="text fix">
                     <h4>Лучшие машины</h4>
                     <p>Разнообразный подвижной состав автомобилей для обучения навыкам практического вождения</p>
                 </div>
             </div>
-            <div class="single-feature single-feature-3">
+            <div class="single-feature single-feature-3 wow fadeInLeft" data-wow-delay=".7s">
                 <div class="icon"><i class="fas fa-film"></i></div>
                 <div class="text fix">
                     <h4>Онлайн тестирование</h4>
@@ -92,26 +107,26 @@
             </div>
         </div>
         <!-- Image -->
-        <div class="feature-image">
+        <div class="feature-image wow fadeInUp" data-wow-delay=".6s">
             <img src="img/car.png" alt="feature" />
         </div>
         <!-- Right side -->
         <div class="features-wrapper features-2">
-            <div class="single-feature">
+            <div class="single-feature wow fadeInRight" data-wow-delay=".5s">
                 <div class="icon"><i class="fas fa-user"></i></div>
                 <div class="text fix-2">
                     <h4>Лучшие преподователи</h4>
                     <p>Высококвалифицированные преподователи со стажем работы 25-30 лет</p>
                 </div>
             </div>
-            <div class="single-feature single-middle-2">
+            <div class="single-feature single-middle-2 wow fadeInRight" data-wow-delay=".6s">
                 <div class="icon"><i class="fas fa-hourglass-half"></i></div>
                 <div class="text fix-2">
                     <h4>Занимайтесь в удобное для вас время</h4>
                     <p>Гибкий график прохождения обучения</p>
                 </div>
             </div>
-            <div class="single-feature">
+            <div class="single-feature wow fadeInRight" data-wow-delay=".7s">
                 <div class="icon"><i class="fas fa-bullseye"></i></div>
                 <div class="text fix-2">
                     <h4>Почасовая оплата практических занятий</h4>
@@ -123,22 +138,22 @@
 
     <!-- FunFact -->
     <div class="funfact-area">
-        <div class="single-facts">
+        <div class="single-facts wow fadeInUp" data-wow-delay=".5s">
             <i class="fas fa-graduation-cap"></i>
             <h1 id="shethik-cifra1" class="counter plus">6500</h1>
             <p>Выпускников</p>
         </div>
-        <div class="single-facts">
+        <div class="single-facts wow fadeInUp" data-wow-delay=".5s">
             <i class="fas fa-user"></i>
             <h1 id="shethik-cifra2" class="counter">12</h1>
             <p>Преподователей</p>
         </div>
-        <div class="single-facts">
+        <div class="single-facts  wow fadeInUp" data-wow-delay=".5s">
             <i class="fal fa-history"></i>
             <h1 id="shethik-cifra3" class="counter">21</h1>
             <p>лет на рынке</p>
         </div>
-        <div class="single-facts">
+        <div class="single-facts wow fadeInUp" data-wow-delay=".5s">
             <i class="fas fa-car"></i>
             <h1 id="shethik-cifra4" class="counter">12</h1>
             <p>авто для практики</p>
@@ -152,6 +167,401 @@
             <h3>Процесс обучения</h3>
         </div>
     </div>
+
+    <!-- Reviews -->
+    <div class="review-container">
+        <div class="title wow fadeInUp" data-wow-delay=".6s">
+            <p class="main-title">ОТЗЫВЫ</p>
+            <i class="fab fa-suse"></i>
+        </div>
+        <div class="review-single fade">
+            <p><i class="fas fa-quote-left"></i>Очень понравился инструктор по вождению Александр Иванович. Профессионал своего дела, отлично все обьясняет, не грубит. За время всего вождения очень многому научил, реально чувствуешь себя другим человеком. Всем советую записываться именно к нему, не пожалеете, раньше был опыт с частными инструкторами. Александр Иванович рядом с ними- топ</p>
+            <div class="review-bottom">
+                <div class="review-image">
+                    <img src="img/testimonial/1.jpg" alt="">
+                </div>
+                <div class="review-title">
+                    <span>Максат Куанышович</span>
+                    <small>Оценил(а):</small>
+                    <div class="rev-icons">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review-single fade">
+            <p><i class="fas fa-quote-left"></i>Доброго времени суток! Хочу выразить благодарность администраторам Автошколы "Авто" за качественное предоставление услуг, информирование будущих курсантов относительно программ автошколы, за индивидуальный подход. Сотрудничество только начинается, я уже довольна стартом. По окончании курсов обязательно оставлю обратную связь для вас, друзья, кто собирается заниматься в этой автошколе!!</p>
+            <div class="review-bottom">
+                <div class="review-image">
+                    <img src="img/testimonial/2.jpg" alt="">
+                </div>
+                <div class="review-title">
+                    <span>Сая Армановна</span>
+                    <small>Appreciated</small>
+                    <div class="rev-icons">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review-single fade">
+            <p><i class="fas fa-quote-left"></i>Обучалась в автошколе, хочу от всего сердца поблагодарить нашего преподавателя Байжанова Тасболата Сабитовича за высокий профессионализм и компетентность, терпение, доброжелательность, готовность отвечать на любые наши вопросы, возвращаться к теме из раза в раз до тех пор пока тема не будет понята всей группой!!!! Готовность делиться не только знаниями предусмотренными программой обучения, но и личным опытом!!!</p>
+            <div class="review-bottom">
+                <div class="review-image">
+                    <img src="img/testimonial/4.jpg" alt="">
+                </div>
+                <div class="review-title">
+                    <span>Абдрахманова Маржан</span>
+                    <small>Оценил(а):</small>
+                    <div class="rev-icons">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Next and previous buttons -->
+        <a class="prev rev-click" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next rev-click" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Instructors -->
+    <div class="title wow fadeInUp" data-wow-delay=".6s">
+            <p class="main-title">Инструкторы</p>
+            <p class="main-title-2">ЛУЧШИЕ ВЫСОКОКВАЛИФИЦИРОВАННЫЕ ПРЕПОДАВАТЕЛИ</p>
+            <i class="fab fa-suse"></i>
+    </div>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <!-- First Slide -->
+        <div class="slider__item">
+            <!-- Content -->
+          <div class="slider__content">
+              <!-- Header -->
+            <div class="slider__content_header">
+              <img class="slider__content_img" src="img/gallery/teacher_8.jpg" alt="">
+            </div>
+                <!-- Bottom -->
+            <h2 class="slider__content_title">Жанғабыл Нұрлан Мүсипқазыұлы</h2>
+            <div class="slider__content_footer">
+              <span class="slider__content_author">Учебный процесс - взаимная работа. И мы, преподаватели и курсанты, должны вместе достигать максимального результата - глубоких крепких знаний. Дорога - серьезный экзаменатор. Ошибки нерадивых учеников слишком дорого обходятся</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Second Slide -->
+        <div class="slider__item">
+            <!-- Content -->
+          <div class="slider__content">
+              <!-- Header -->
+            <div class="slider__content_header">
+              <img class="slider__content_img" src="img/gallery/teacher_8.jpg" alt="">
+            </div>
+                <!-- Bottom -->
+            <h2 class="slider__content_title">Бекмаганбетов Жармахан Алдашович</h2>
+            <div class="slider__content_footer">
+              <span class="slider__content_author">Нет бесталанных курсантов. Главное - уметь поставить цель. В автошколу приходят те, кто эту цель для себя четко определил. Если есть желание, любого “лирика” можно научить техническим особенностям авто и правилам поведения на дороге</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Third Slide -->
+        <div class="slider__item">
+            <!-- Content -->
+          <div class="slider__content">
+              <!-- Header -->
+            <div class="slider__content_header">
+              <img class="slider__content_img" src="img/gallery/teacher_8.jpg" alt="">
+            </div>
+                <!-- Bottom -->
+            <h2 class="slider__content_title">Именов Акбержан Хамрожинович</h2>
+            <div class="slider__content_footer">
+              <span class="slider__content_author">Наши курсанты практически всегда успешно сдают экзамены на получение водительских прав. Значит, методики занятий разработаны нами правильно. Продолжаем совершенствоваться. Применять не только новые методы, но все современные технические средства</span>
+            </div>
+          </div>
+
+        </div>
+        
+        <!-- Fourth Slide -->
+        <div class="slider__item">
+            <!-- Content -->
+          <div class="slider__content">
+              <!-- Header -->
+            <div class="slider__content_header">
+              <img class="slider__content_img" src="img/gallery/teacher_8.jpg" alt="">
+            </div>
+                <!-- Bottom -->
+            <h2 class="slider__content_title">Абильмагжанов Беркут Ажибаевич</h2>
+            <div class="slider__content_footer">
+              <span class="slider__content_author">В автошколу приходят разные люди. По возрасту, образованию, по способности усваивать материал. Кому-то учеба дается легко, некоторым для запоминания требуется больше времени. Стараюсь найти индивидуальный подход к каждому. Уважаю настойчивость, приветствую старательных</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Fifth Slide -->
+        <div class="slider__item">
+            <!-- Content -->
+          <div class="slider__content">
+              <!-- Header -->
+            <div class="slider__content_header">
+              <img class="slider__content_img" src="img/gallery/teacher_8.jpg" alt="">
+            </div>
+                <!-- Bottom -->
+            <h2 class="slider__content_title">Абайдуллаев Марат Бекенович</h2>
+            <div class="slider__content_footer">
+              <span class="slider__content_author">Считаю свою работу очень ответственной. От нее многое зависит. Горжусь, что выпускники нашей школы не попадают в число нарушителей. Считаю это заслугой преподавательей, требовательно относящегося к своим обязанностям</span>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_right" href="#" role="button"></a>
+    </div>
+
+    <!-- Pricing -->
+    <div id="pric-id" class="pric-area">
+        <div class="title wow fadeInUp" data-wow-delay=".6s">
+            <p class="main-title">Цены</p>
+            <p class="main-title-2">Самые низские цены по городу</p>
+            <i class="fab fa-suse"></i>
+        </div>
+    <div class="pricing-slider">
+        <div class="pricing-wrapper">
+            <!-- First Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Second Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Third Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Fourth Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Fifth Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Sixth Slide -->
+            <div class="pric-item">
+                <!-- Content -->
+                <div class="pric-content">
+                    <!-- Header -->
+                    <div class="pric-content-header">
+                        <p>Категория A</p>    
+                    </div>
+                    <div class="pric-content-middle">
+                        <p>22000 T</p>
+                        <span>4.5 Месяца <br>
+                            30ч. Вождения
+                        </span>
+                    </div>
+                    <div class="pric-content-bottom">
+                        <button>Записаться</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <a class="pric__control pric__control_left" href="#" role="button"></a>
+        <a class="pric__control pric__control_right" href="#" role="button"></a>
+    </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq-container">
+        <div class="title wow fadeInUp" data-wow-delay=".6s">
+            <p class="main-title">Часто задаваемые вопросы</p>
+            <i class="fab fa-suse"></i>
+        </div>
+        <div class="accordion">
+                <ul>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2 class="title_block">В какое время проходят занятия по вождению?</h2>
+                        <div class="msg">
+                            <p>По договоренности с инструктором.</p>    
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2 class="title_block">Какие документы мне нужны для поступления в автошколу?</h2>
+                        <div class="msg">
+                            <p>Паспорт, 2 фотографии 3х4 (можно цветные, можно черно-белые, но обязательно матовые) и справка о прохождении водительской медицинской комиссии.</p>    
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2 class="title_block">Каков процент сдачи экзаменов в ГАИ с первого раза?</h2>
+                        <div class="msg">
+                            <p>Выпускники нашей школы имеют один из самых высоких процентов сдачи экзаменов в ГАИ с первого раза. Теория 90 - 95%, вождение 75 - 85%.</p>    
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2 class="title_block">Можно ли помимо базового наката брать дополнительные уроки вождения?</h2>
+                        <div class="msg">
+                            <p>Да, можно, так как программа рассчитана на 20-30 часов вождения, и иногда этого времени не хватает для уверенной езды по городу. Дополнительные занятия оплачиваются сверх суммы, внесённой за курс.</p>    
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        <div class="faq-image">
+			<img src="img/faq.png" alt="" />
+		</div>
+    </div>
+
+    <!-- Footer -->
+    <div id="contact-id" class="footer-area">
+        <div class="no1"></div>
+        <div class="footer-widget">
+            <h4 class="widget-title">О нас</h4>
+            <div class="about-widget">
+                <p>Наша автошкола отличается тем, что мы имеем огромный опыт, о выпуске нами учеников! 😊Все они сейчас, имеют права! И сдали все экзамены, без проблем!!! Это самое главное‼️ Нами предусмотрены, все самые важные события о получении прав! </p>
+                <div class="widget-social fix">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-widget f-w-2">
+            <h4 class="widget-title">контакты</h4>
+            <div class="contact-widget">
+                <h5>Наши филиалы:</h5>
+                <p>Ул.Маресьева 95, 105 кабинет, Актобе.</p>
+                <h5>Тел: 8(7132)54-27-60</h5>
+                <p>Ул 101 ст.бригада 8 , 1 кабине, Актобе.</p>
+                <h5>Тел: 8(7132)55-67-18</h5>
+                <p>Ул. А.Молдагулова 36, Актобе.</p>
+                <h5>Тел: 8(7132)57-14-29</h5>
+                <h5 class="email">e-mail</h5>
+                <p>
+                    <a href="#">avto.08@mail.ru</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/m_s.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/price.js"></script>
+    <script src="js/slider-fiew.js"></script>
+    <script src="js/acardion.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     </body>
 </html>

@@ -1,0 +1,863 @@
+/* Large Desktop */
+@media (min-width: 1245px) and (max-width: 1400px){
+    .main-header{
+        width: 900px;
+    }
+    .funfact-area{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .features{
+        padding-top: 50px;
+        height: 600px;
+    }
+    /* Main page */
+    .main-block{
+        height: 550px;
+    }
+    .no{
+        height: 550px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .title .main-title{
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .feature-image{
+        width: 28%;
+    }
+    .features-1{
+        width: 33.3%;
+    }
+    .features-2{
+        width: 35%;
+    }
+    .single-middle-1{
+        margin-right: 50px;
+    }
+    .single-middle-2{
+        padding-left: 20px;
+    }
+    /* Video */
+    .video-area{
+        padding: 195px 0;
+    }
+    /* Review */
+    .review-container {
+        max-width: 830px;
+        margin: auto;
+    }
+    .review-single {
+        width: 800px;
+        height: 300px;
+    }
+    .review-single p{
+        font-size: 1.2rem;
+    }
+    .review-image{
+        width: 150px;
+    }
+    .prev{
+        margin-left: 740px;
+        border-radius: 3px 0 0 3px;
+    }
+    .review-title span{
+        font-size: 1.5rem;
+    }
+    .review-title small{
+        margin-top: 70px;
+        font-size: 1.1rem;
+    }
+    /* FAQ */
+    .faq-container{
+        margin: 50px auto;
+    }
+    .accordion{
+        width: 500px;
+        margin-left: 50px;
+    }
+    .faq-image{
+        width: 600px;
+        max-width: 600px;
+        vertical-align: top;
+        margin-top: 50px;
+    }
+    .accordion h2 {
+        font-size: 20px;
+    }
+    /* Footer */
+    .footer-area{
+        height: 420px;
+    }
+}
+
+/* Normal Desktop */
+@media (min-width: 1037px) and (max-width: 1244px){
+    /* Header */
+    .main-header{
+        width: 800px;
+    }
+    #navbar{
+        margin-left: 100px;
+    }
+    #navbar li a{
+        font-size: 1rem;
+    }
+    /* Main-block */
+    .main-block{
+        margin-top: -40px;
+        height: 550px;
+    }
+    .no{
+        height: 550px;
+    }    
+    .title-block{
+        margin-top: 200px;
+        margin-left: 660px;
+    }
+    .title-block p{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .title-block h2{
+        font-size: 3rem;
+        margin: 5px 0;
+    }
+    .title-block small{
+        padding:0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .button-1{
+        padding: 5px 15px;
+    }
+    .button-2{
+        padding: 5px 15px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .title .main-title{
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .features{
+        padding-top: 50px;
+        height: 600px;
+    }
+    .single-feature .text h4{
+        font-size: 1rem;
+    }
+    .single-feature .text p{
+        font-size: .8rem;
+    }
+    .feature-image{
+        width: 28%;
+    }
+    .features-1{
+        width: 33.3%;
+    }
+    .features-2{
+        width: 35%;
+    }
+    .single-middle-1{
+        margin-right: 50px;
+    }
+    .single-middle-2{
+        padding-left: 20px;
+    }
+    /* FunFact */
+    .funfact-area{
+        padding: 0;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .funfact-area .single-facts{
+        padding: 0 50px;
+    }
+    .funfact-area .single-facts i{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    /* Video */
+    .video-area{
+        padding: 195px 0;
+    }
+    
+    /* Review */
+    .review-container {
+        max-width: 830px;
+        margin: auto;
+    }
+    .review-single {
+        width: 800px;
+        height: 300px;
+    }
+    .review-single p{
+        font-size: 1.2rem;
+    }
+    .review-image{
+        width: 150px;
+    }
+    .prev{
+        margin-left: 740px;
+        border-radius: 3px 0 0 3px;
+    }
+    .review-title span{
+        font-size: 1.5rem;
+    }
+    .review-title small{
+        margin-top: 70px;
+        font-size: 1.1rem;
+    }
+    /* FAQ */
+    .faq-container{
+        margin: 50px auto;
+    }
+    .accordion{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .faq-image{
+        width: 500px;
+        max-width: 600px;
+        vertical-align: top;
+        margin-top: 90px;
+    }
+    .accordion h2 {
+        font-size: 18px;
+    }
+    /* Footer */
+    .footer-area{
+        height: 420px;
+    }
+    .footer-area .footer-widget{
+        width: 30%;
+    }
+}
+
+/* Tablet Desktop */
+@media (min-width: 991px) and (max-width: 1036px){
+    /* Header */
+    .main-header{
+        width: 700px;
+    }
+    #navbar{
+       margin-left: 100px;
+    }
+    #navbar li a{
+        font-size: 1rem;
+        padding: 0;
+    }
+    /* Main-page */
+    .main-block{
+        height: 500px;
+    }
+    .no{
+        height: 500px;
+    }
+    .title-block{
+        margin-top: 200px;
+        margin-left: 640px;
+    }
+    .title-block p{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .title-block h2{
+        font-size: 3rem;
+        margin: 5px 0;
+    }
+    .title-block small{
+        padding:0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .button-1{
+        margin-left: 0px;
+        padding: 5px 10px;
+    }
+    .button-2{
+        padding: 5px 10px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .title .main-title{
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .features{
+        padding-top: 50px;
+        height: 600px;
+    }
+    .single-feature .text h4{
+        font-size: 1rem;
+    }
+    .single-feature .text p{
+        font-size: .8rem;
+    }
+    .feature-image{
+        width: 28%;
+    }
+    .features-1{
+        width: 33.3%;
+    }
+    .features-2{
+        width: 35%;
+    }
+    .single-middle-1{
+        margin-right: 50px;
+    }
+    .single-middle-2{
+        padding-left: 20px;
+    }
+    /* FunFact */
+    .funfact-area{
+        padding: 0;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .funfact-area .single-facts{
+        padding: 0 30px;
+    }
+    .funfact-area .single-facts i{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    /* Video */
+    .video-area{
+        padding: 195px 0;
+    }
+    /* Review */
+    .review-container {
+        max-width: 830px;
+        margin: auto;
+    }
+    .review-single {
+        width: 800px;
+        height: 300px;
+    }
+    .review-single p{
+        font-size: 1.2rem;
+    }
+    .review-image{
+        width: 150px;
+    }
+    .prev{
+        margin-left: 740px;
+        border-radius: 3px 0 0 3px;
+    }
+    .review-title span{
+        font-size: 1.5rem;
+    }
+    .review-title small{
+        margin-top: 70px;
+        font-size: 1.1rem;
+    }
+    /* FAQ */
+    .faq-container{
+        margin: 50px auto;
+    }
+    .accordion{
+        width: 900px;
+        max-width: 900px;
+        margin-left: 50px;
+    }
+    .faq-image img{
+        display: none;
+    }
+    .accordion h2 {
+        font-size: 22px;
+    }
+    /* Footer */
+    .footer-area{
+        height: 420px;
+    }
+    .footer-area .footer-widget{
+        width: 30%;
+    }
+}
+
+/* Middle Desktop */
+@media (min-width: 768px) and (max-width: 990px){
+    /* Header */
+    .main-header{
+        display: none;
+    }
+    /* Main-page */
+    .main-block{
+        height: 450px;
+    }
+    .no{
+        height: 450px;
+    }
+    .title-block{
+        margin-top: 200px;
+        margin-left: 420px;
+    }
+    .title-block p{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .title-block h2{
+        font-size: 3rem;
+        margin: 5px 0;
+    }
+    .title-block small{
+        padding:0;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .button-1{
+        margin-left: 0px;
+        padding: 5px 10px;
+    }
+    .button-2{
+        padding: 5px 10px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .title .main-title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .features{
+        padding-top: 0;
+        height: 450px;
+    }
+    .features .fas{
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .features .fa-bullseye, .fa-hourglass-half{
+        margin-top: 5px;
+    }
+    .features .fa-film{
+        margin-top: 5px;
+    }
+    .single-feature .text h4{
+        font-size: .7rem;
+    }
+    .single-feature .text p{
+        font-size: .6rem;
+    }
+    .feature-image{
+        width: 28%;
+    }
+    .features-1{
+        width: 33.3%;
+    }
+    .features-2{
+        width: 35%;
+    }
+    .single-middle-1{
+        margin-right: 50px;
+    }
+    .single-middle-2{
+        padding-left: 20px;
+    }
+    /* FunFact */
+    .funfact-area{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .funfact-area .single-facts{
+        padding: 0 30px;
+    }
+    .funfact-area .single-facts i{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .funfact-area .single-facts h1{
+        font-size: 30px;
+    }
+    .funfact-area .single-facts p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    /* Video */
+    .video-area{
+        padding: 150px 0;
+    }
+    /* Review */
+    .review-container {
+        max-width: 630px;
+        margin: 50px auto;
+    }
+    .review-single {
+        width: 600px;
+        height: 350px;
+    }
+    .review-single p{
+        font-size: 1.2rem;
+    }
+    .review-image{
+        width: 150px;
+    }
+    .prev{
+        margin-left: 540px;
+        border-radius: 3px 0 0 3px;
+    }
+    .review-title span{
+        font-size: 1.5rem;
+    }
+    .review-title small{
+        margin-top: 70px;
+        font-size: 1.1rem;
+    }
+    /* FAQ */
+    .faq-container{
+        margin: 50px auto;
+    }
+    .accordion{
+        width: 700px;
+        max-width: 700px;
+        margin-left: 50px;
+    }
+    .faq-image img{
+        display: none;
+    }
+    .accordion h2 {
+        font-size: 19px;
+    }
+    /* Footer */
+    .footer-area{
+        height: 420px;
+    }
+    .footer-area .footer-widget{
+        width: 30%;
+    }
+}
+
+
+/* Large Mobile Desktop:480px. */
+@media (min-width: 481px) and (max-width: 767px){
+    /* Header */
+    .main-header{
+        display: none;
+    }
+    /* Main-page */
+    .main-block{
+        height: 450px;
+    }
+    .no{
+        height: 450px;
+    }
+    .title-block{
+        margin-top: 150px;
+        margin-left: 220px;
+    }
+    .title-block p{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .title-block h2{
+        font-size: 2.2rem;
+        margin: 5px 0;
+    }
+    .title-block h2 span{
+        font-size: 2.5rem;
+    }
+    .title-block small{
+        padding:0;
+        margin: 0;
+        margin-bottom: 15px;
+        margin-bottom: 30px;
+    }
+    .button-1{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        display: block;
+    }
+    .button-2{
+        padding: 5px 10px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .title .main-title{
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .features{
+        padding-top: 0;
+        height: 400px;
+    }
+    .features .fas{
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+    .features .fa-bullseye, .fa-hourglass-half{
+        margin-top: 5px;
+    }
+    .features .fa-film{
+        margin-top: 5px;
+    }
+    .single-feature .text h4{
+        font-size: .5rem;
+    }
+    .single-feature .text p{
+        font-size: .4rem;
+    }
+    .feature-image img{
+        display: none;
+    }
+    .feature-image{
+        width: 5%;
+    }
+    .features-1{
+        width: 40%;
+    }
+    .features-2{
+        width: 40%;
+    }
+    /* FunFact */
+    .funfact-area{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .funfact-area .single-facts{
+        padding: 0 30px;
+    }
+    .funfact-area .single-facts i{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .funfact-area .single-facts h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .funfact-area .single-facts p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    /* Video */
+    .video-area{
+        padding: 100px 0;
+    }
+    /* Review */
+    .review-container {
+        max-width: 430px;
+        margin: 50px auto;
+    }
+    .review-single {
+        width: 400px;
+        height: 250px;
+    }
+    .review-single p{
+        font-size: .9rem;
+    }
+    .review-image{
+        width: 100px;
+    }
+    .prev{
+        margin-left: 340px;
+        border-radius: 3px 0 0 3px;
+    }
+    .review-title span{
+        font-size: 1.3rem;
+    }
+    .review-title small{
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+    /* FAQ */
+    .faq-container{
+        margin: 50px auto;
+    }
+    .accordion{
+        margin-left: 50px;
+        width: 400px;
+        max-width: 400px;
+    }
+    .faq-image img{
+        display: none;
+    }
+    .accordion h2 {
+        font-size: 17px;
+    }
+    /* Footer */
+    .footer-area{
+        height: 350px;
+    }
+    .footer-area .footer-widget{
+        width: 30%;
+    }
+}
+
+/* Small Mobile Desktop:320px. */
+@media only screen and (min-width : 319px) and (max-width : 480px){
+    /* Header */
+    .main-header{
+        display: none;
+    }
+    /* Main-page */
+    .main-block{
+        height: 450px;
+    }
+    .no{
+        height: 450px;
+    }
+    .title-block{
+        margin-top: 170px;
+        margin-left: 50px;
+    }
+    .title-block p{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .title-block h2{
+        font-size: 2.2rem;
+        margin: 5px 0;
+    }
+    .title-block h2 span{
+        font-size: 2.5rem;
+    }
+    .title-block small{
+        padding:0;
+        margin: 0;
+        margin-bottom: 15px;
+        margin-bottom: 50px;
+    }
+    .button-1{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        display: block;
+    }
+    .button-2{
+        padding: 5px 10px;
+    }
+    /* Title */
+    .title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .title .main-title{
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .title .main-title-2{
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    /* Features */
+    .features{
+        padding-top: 0;
+        height: 400px;
+    }
+    .features .fas{
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+    .features .fa-bullseye, .fa-hourglass-half{
+        margin-top: 5px;
+    }
+    .features .fa-film{
+        margin-top: 5px;
+    }
+    .single-feature .text h4{
+        font-size: .5rem;
+    }
+    .single-feature .text p{
+        font-size: .5rem;
+    }
+    .feature-image img{
+        display: none;
+    }
+    .feature-image{
+        width: 5%;
+    }
+    .features-1{
+        width: 40%;
+    }
+    .features-2{
+        width: 40%;
+    }
+    /* FunFact */
+    .funfact-area{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .funfact-area .single-facts{
+        padding: 0 10px;
+    }
+    .funfact-area .single-facts i{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .funfact-area .single-facts h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .funfact-area .single-facts p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }   
+    /* Video */
+    .video-area{
+        padding: 80px 0;
+    }
+    .video-content h3{
+        font-size: 1rem;
+    }
+    .video-content a i{
+        font-size: 50px;
+    }
+}

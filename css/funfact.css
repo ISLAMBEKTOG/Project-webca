@@ -2,11 +2,9 @@
 	Funfact Style
 --------------------------*/
 .funfact-area {
-    background:  url("img/section-bg/funfact.jpg") no-repeat scroll center center;
+    background:  url("../img/section-bg/funfact.jpg") no-repeat scroll center center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding-bottom: 50px;
-    padding-top: 50px;
   }
   .single-facts{
       display: inline-block;

@@ -1,5 +1,5 @@
 .main-block {
-    background-image: url(img/slider/1.jpg);
+    background-image: url(../img/slider/1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover ;
@@ -69,10 +69,9 @@
 
 /* Video */
 .video-area {
-    background: rgba(0, 0, 0, .5) url("img/section-bg/video.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, .5) url("../img/section-bg/video.jpg") repeat scroll 0 0;
     -webkit-background-size: cover;
     background-size: cover;
-    padding: 195px 0;
     text-align: center;
     filter: brightness(70%);
 }

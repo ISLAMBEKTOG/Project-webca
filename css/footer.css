@@ -1,0 +1,110 @@
+/*-------------------------- 
+	Footer Style
+--------------------------*/
+.footer-area {
+    background: url("../img/section-bg/footer.jpg") repeat scroll center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+  }
+  .no1{
+      height: 420px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+  }
+  /* Footer Top */
+  .footer-top {}
+  .footer-top img {
+    margin-bottom: 20px;
+  }
+  .footer-top p {
+    color: #fefefe;
+    font-size: 16px;
+  }
+  /* Footer Widget */
+  .footer-widget {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-left: 50px;
+  }
+  .f-w-2{
+      width: 25%;
+  }
+  .footer-widget .widget-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 14px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  /* About Widget */
+  .about-widget{}
+  .about-widget p {
+    color: #fff;
+    line-height: 1.4;
+  }
+  .about-widget .widget-social {
+    clear: both;
+    float: left;
+    margin-top: 15px;
+  }
+  .about-widget .widget-social a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 30px;
+    margin: 6px 16px 6px 6px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 30px;
+    text-decoration: none;
+  }
+  .about-widget .widget-social a i {
+    display: block;
+    height: 30px;
+    line-height: 28px;
+    transform: rotate(-45deg);
+    width: 30px;
+  }
+  .fab{
+      font-family: 'FontAwesome';
+      font-style: normal;
+  }
+  .about-widget .widget-social a:hover {
+    background-color: #fff;
+    color: #555555;
+  }
+  /* Contact Widget */
+  .contact-widget{}
+  .contact-widget h5 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .contact-widget .email{
+    margin-bottom: -10px;
+  }
+  .contact-widget p, .contact-widget a {
+    color: #fff;
+    display: block;
+  }
+  .contact-widget p {
+    margin-bottom: -15px;
+  }
+  .contact-widget p:last-child {
+    margin-bottom: 0;
+  }
+  .contact-widget a{}
+  .contact-widget a:hover {
+    color: #dec839;
+  }

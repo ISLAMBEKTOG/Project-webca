@@ -1,0 +1,135 @@
+.faq-container{
+    width: 100%;
+}
+.accordion {
+    min-height: 0;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    background-color: #fefffa;
+    overflow: hidden
+}
+.accordion h2 {
+    line-height: 1.5;
+    display: block;
+    margin: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: black;
+    background: #efeff5;
+    border-top: 1px solid #ebebec;
+    border-bottom: 1px solid #ebebec;
+    font-weight: 700;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.msg {
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  background-color: rgb(223, 221, 221);
+}
+ 
+.msg p {
+  color: rgba(52, 60, 68, 0.8);
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 20px
+}
+ 
+@media (max-width: 550px) {
+  .accordion {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+} 
+
+.accordion ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+ 
+.accordion ul li {
+  position: relative;
+  padding: 0;
+  margin-top: 15px;
+}
+ 
+.accordion ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+.accordion ul li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+.accordion ul li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+.accordion ul li:last-of-type {
+  padding-bottom: 0;
+}
+
+.accordion ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 25px;
+}
+ 
+.accordion ul li i:before, .accordion ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(212, 212, 51);
+  width: 3px;
+  height: 9px;
+}
+
+.accordion ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.accordion ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ 
+.accordion ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+.accordion ul li input[type=checkbox]:checked ~ div.msg {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+.accordion ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.accordion ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+div.msg, ul li i:before, ul li i:after {
+    transition: all 0.5s ease-in-out;
+}
+
+/* Image */
+.faq-image{
+    display: inline-block;
+    margin-left: 30px;
+}
+.faq-image img{
+    width: 100%;
+}
