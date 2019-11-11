@@ -1,0 +1,66 @@
+.course-main {
+    background-image: url(../img/gallery/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+
+    width: 100%;
+    height: 900px;
+    margin-top: -22px;
+    padding-top: 70px;
+}
+.course-main .course-image {
+    width: 700px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.course-main .course-image img{
+    width: 100%;
+}
+.course-main .course-title{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    width: 400px;
+    height: 300px;
+}
+.course-main .course-title h1{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.course-main .course-title p{
+    font-size: 1.8rem;
+}
+.course-main .course-title span{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.course-main .course-funfact{
+    background: transparent;
+    text-align: center;
+}
+.course-main .course-funfact .single-facts{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding: 0;
+    color: white;
+}
+.course-main .course-funfact .single-facts i{
+    color: white;
+}
+.course-main .course-funfact .single-facts h1::before{
+    background-color: #fff;
+}
+.course-main .course-funfact .single-facts p{
+    line-height: 1.6;
+}
