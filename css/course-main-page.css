@@ -11,9 +11,7 @@
     padding-top: 70px;
 }
 .course-main .course-image {
-    width: 700px;
     display: inline-block;
-    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -23,24 +21,19 @@
 .course-main .course-title{
     display: inline-block;
     vertical-align: top;
-    margin-top: 150px;
     text-align: center;
     color: white;
     margin-left: 10px;
-    width: 400px;
     height: 300px;
 }
 .course-main .course-title h1{
-    font-size: 6rem;
     font-weight: 700;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 .course-main .course-title p{
-    font-size: 1.8rem;
 }
 .course-main .course-title span{
-    font-size: 3rem;
     font-weight: 800;
 }
 
@@ -51,7 +44,6 @@
 .course-main .course-funfact .single-facts{
     display: inline-block;
     vertical-align: top;
-    width: 300px;
     padding: 0;
     color: white;
 }
@@ -63,4 +55,141 @@
 }
 .course-main .course-funfact .single-facts p{
     line-height: 1.6;
+}
+
+/* Large Desktop */
+@media (min-width: 1245px) and (max-width: 1400px){
+    .course-main {
+        height: 900px;
+    }
+    .course-main .course-image {
+        margin-left: 100px;
+        width: 700px;
+    }
+    .course-main .course-title{
+        margin-top: 150px;
+        width: 400px;
+    }
+    .course-main .course-title h1{
+        font-size: 6rem;
+    }
+    .course-main .course-title p{
+        font-size: 1.8rem;
+    }
+    .course-main .course-title span{
+        font-size: 3rem;
+    }
+    .course-main .course-funfact .single-facts{
+        width: 300px;
+    }
+}
+
+/* Normal Desktop */
+@media (min-width: 1037px) and (max-width: 1244px){
+    .course-main {
+        height: 900px;
+    }
+    .course-main .course-image {
+        margin-left: 100px;
+        width: 600px;
+    }
+    .course-main .course-title{
+        margin-top: 100px;
+        width: 300px;
+    }
+    .course-main .course-title h1{
+        font-size: 6rem;
+    }
+    .course-main .course-title p{
+        font-size: 1.8rem;
+    }
+    .course-main .course-title span{
+        font-size: 3rem;
+    }
+    .course-main .course-funfact .single-facts{
+        width: 250px;
+    }
+}
+
+/* Tablet Desktop */
+@media (min-width: 991px) and (max-width: 1036px){
+    .course-main {
+        height: 850px;
+    }
+    .course-main .course-image {
+        margin-left: 100px;
+        width: 500px;
+    }
+    .course-main .course-title{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .course-main .course-title h1{
+        font-size: 6rem;
+    }
+    .course-main .course-title p{
+        font-size: 1.8rem;
+    }
+    .course-main .course-title span{
+        font-size: 3rem;
+    }
+    .course-main .course-funfact .single-facts{
+        width: 200px;
+    }
+}
+
+
+/* Middle Desktop */
+@media (min-width: 768px) and (max-width: 990px){
+    .course-main {
+        height: 700px;
+    }
+    .course-main .course-image {
+        margin-left: 100px;
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .course-main .course-title{
+        margin-top: 50px;
+        width: 250px;
+    }
+    .course-main .course-title h1{
+        font-size: 4rem;
+    }
+    .course-main .course-title p{
+        font-size: 1.4rem;
+    }
+    .course-main .course-title span{
+        font-size: 2.5rem;
+    }
+    .course-main .course-funfact .single-facts{
+        width: 180px;
+    }
+}
+
+/* Large Mobile Desktop:480px. */
+@media (min-width: 481px) and (max-width: 767px){
+    .course-main {
+        height: 1000px;
+    }
+    .course-main .course-image {
+        margin-left: 40px;
+        width: 400px;
+    }
+    .course-main .course-title{
+        margin-left: 120px;
+        width: 250px;
+    }
+    .course-main .course-title h1{
+        font-size: 4rem;
+    }
+    .course-main .course-title p{
+        font-size: 1.4rem;
+    }
+    .course-main .course-title span{
+        font-size: 2.5rem;
+    }
+    .course-main .course-funfact .single-facts{
+        width: 180px;
+    }
 }
