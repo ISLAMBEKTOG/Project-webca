@@ -1,10 +1,53 @@
+<?
+    $error_name = "Name";
+    $error_phone = "Phone number";
+    $error_email = "Email address";
+
+    session_start();
+    if(isset($_POST["send"])){
+        $name = filter_var(trim($_POST['name']),FILTER_SANITIZE_STRING);
+        $phone = filter_var(trim($_POST['phone']),FILTER_SANITIZE_STRING);
+        $email = filter_var(trim($_POST['email']),FILTER_SANITIZE_STRING);
+        
+        $_SESSION["name"] = $name;
+        $_SESSION["phone"] = $phone;
+        $_SESSION["email"] = $email;
+
+        $error = false;
+
+        if($name == ""){
+            $error_name = "Write correct name";
+            $error = true;
+        }
+        if($phone == ""){
+            $error_phone = "Write correct phone";
+            $error = true;
+        }
+        if($email == "" || !preg_match("/@/",$email)){
+            $error_email = "Write correct email";
+            $error = true;
+        }
+
+        if(!$error){
+            // Sending information to mysql
+            $mysql = new mysqli('localhost','root','','register-bd');
+            $mysql -> query("INSERT INTO `regis` (`name`, `phone`, `email`) VALUES('$name', '$phone', '$email')");
+
+            $mysql->close(); 
+
+            header('Location: /index.php');
+        }
+
+
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Автошкола</title>
+    <title>Driving School</title>
     <!-- Style .css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Header .css -->
@@ -27,6 +70,8 @@
     <link rel="stylesheet" href="css/questions.css">
     <!-- Animate .css -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- Forma .css -->
+    <link rel="stylesheet" href="css/forma.css">
     <!-- Fontawesome .css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
@@ -40,10 +85,10 @@
             <div class="main-header">
                 <nav>
                     <ul id="navbar">
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="#">Courses<i class="icofont icofont-simple-down"></i></a>
                             <ul>
-                                <li><a href="courseA.html">Category А</a></li>    
+                                <li><a href="courseA.html">Category A</a></li>    
                                 <li><a href="courseB.html">Category B</a></li>
                                 <li><a href="courseBC.html">Category BC</a></li>
                                 <li><a href="courseC.html">Category C</a></li>
@@ -54,7 +99,7 @@
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="#pric-id">Price</a></li>
                         <li><a href="#contact-id">Contacts</a></li>
-                        <li><a href="#">Online learning</a></li>
+                        <li><a href="online-training.php">Online learning</a></li>
                     </ul>
                 </nav>
             </div>
@@ -67,7 +112,7 @@
                 <p class="wow fadeInRight" data-wow-delay=".4s">IN ALL CATEGORIES</p>
                 <h2 class="wow fadeInRight" data-wow-delay=".4s">Discounts <span>-30%</span></h2>
                 <small class="wow fadeInRight" data-wow-delay=".4s">Own car park and training site</small>
-                <button class="button-1 wow fadeInUp" data-wow-delay=".6s">Sign up</button>
+                <button id="ex1"  class="button-1 wow fadeInUp" data-wow-delay=".6s">Sign up</button>
                 <button class="button-2 wow fadeInUp" data-wow-delay=".6s">Online learning</button>
             </div>
         </div>
@@ -553,7 +598,35 @@
         </div>
     </div>
 
+    <div id="popup1" class="popup">
+		<!-- самое (белое) модальное окно -->
+		<div class="popup-dialog">
+			<!-- Содержимое модального окна -->
+			<div class="popup-content">
+				<button id="close" class="popup-close">&times;</button>
+				<h4 class="popup-header">Interested in?</h4>
+				<p>Leave your contact details for communication</p>
+				<div class="popup-form main-form">
+					<form class="form" action="index.php" method="POST">
+
+						<label for="#"><?= $error_name?></label>
+                        <input type="text" class="form-input" name="name" value="<?= $_SESSION["name"]?>">
+                        
+                        <label for="#"><?= $error_phone?></label>
+                        <input type="text" class="form-input" name="phone" value="<?= $_SESSION["phone"]?>">
+
+						<label for="#"><?= $error_email?></label>
+						<input type="text" class="form-input" name="email" value="<?= $_SESSION["email"]?>">
+                        
+						<button class="form-btn button" name="send" type="submit">Sign up</button>
+					</form>
+				</div>
+			</div>
+		</div>
+    </div>
+
     <!-- Script -->
+    <script src="js/main.js"></script>
     <script src="js/m_s.js"></script>
     <script src="js/script.js"></script>
     <script src="js/price.js"></script>

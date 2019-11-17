@@ -1,0 +1,74 @@
+.training-container{
+    background-image: url(../img/footer-form-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.training-block{
+    color: white;
+    border: 2px solid white;
+    width: 700px;
+    margin-left: 250px;
+    padding-top: 30px;
+    padding-left: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.training-block label{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2;
+}
+.training-block input{
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding: .4rem;
+    outline: none;
+    margin-left: 90px;
+}
+.training-block .name-input{
+    margin-left: 200px;
+}
+.training-block select{
+    font-size: 1.3rem;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+.training-block .times-input{
+    margin-left: 100px;
+}
+.training-block .courses-input{
+    margin-left: 170px;
+}
+.training-block span{
+    font-size: 1.5rem;
+}
+.training-block .r1{
+    margin-left: 130px;
+}
+.training-block .r2{
+    margin-left: 40px;
+}
+.training-block .send-btn{
+    margin-left: 200px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(184, 184, 51);
+    padding: 1rem 4rem;
+    font-size: 1.6rem;
+    border: 1px solid rgb(184, 184, 51);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.training-block .train-header{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
