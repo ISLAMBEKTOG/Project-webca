@@ -56,6 +56,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Header .css -->
     <link rel="stylesheet" href="css/main-header.css">
+	<!-- Mobile menu .css -->
+    <link rel="stylesheet" href="css/mobile-menu.css">
     <!-- Responsive .css -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Features .css -->
@@ -78,6 +80,7 @@
     <link rel="stylesheet" href="css/formaa.css">
     <!-- Fontawesome .css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -106,6 +109,25 @@
                         <li><a href="online-training.php">Online learning</a></li>
                     </ul>
                 </nav>
+            </div>
+		<!-- Mobile menu -->
+            <div class="mobile-menu">
+                <i id="burger" class="material-icons" onclick="burger()">menu</i>
+                <i id="quit" class="material-icons" onclick="quit()">clear</i>
+                <div id="links">
+                    <a href="index.php">-- Home --</a>
+                    <a href="#">-- Courses --</a>
+                    <a class="service_li" href="courseA.html">* Category A</a>
+                    <a class="service_li" href="courseB.html">* Category B</a>
+                    <a class="service_li" href="courseBC.html">* Category BC</a>
+                    <a class="service_li" href="courseC.html">* Category C</a>
+                    <a class="service_li" href="courseD.html">* Category D</a>
+                    <a class="service_li" href="courseE.html">* Category E</a>
+                    <a href="gallery.html">-- Gallery --</a>
+                    <a href="index.php#pric-id">-- Price --</a>
+                    <a href="index.php#contact-id">-- Contacts --</a>
+                    <a href="online-training.php">-- online learning --</a>
+                </div>
             </div>
         </div>
         
@@ -638,6 +660,7 @@
     <script src="js/acardion.js"></script>
     <script src="js/priceup.js"></script>
     <script src="js/wow.min.js"></script>
+	<script src="js/mobile-menu.js"></script>
     <script>
         new WOW().init();
     </script>
