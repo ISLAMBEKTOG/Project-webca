@@ -35,7 +35,7 @@
 
         if(!$error){
             // Sending information to mysql
-            $mysql = new mysqli('localhost','root','','online-training-bd');
+            $mysql = new mysqli('localhost','root','','driving_school');
             $mysql -> query("INSERT INTO `online-users` (`name`, `phone`, `email`,`time`,`course`,`car`) VALUES('$online_name', '$online_phone', '$online_email','$online_time','$online_course','$online_car')");
 
             $mysql->close(); 
