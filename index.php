@@ -30,7 +30,7 @@
 
         if(!$error){
             // Sending information to mysql
-            $mysql = new mysqli('localhost','root','','register-bd');
+            $mysql = new mysqli('localhost','root','','driving_school');
             $mysql -> query("INSERT INTO `regis` (`name`, `phone`, `email`) VALUES('$name', '$phone', '$email')");
 
             $mysql->close(); 
@@ -39,7 +39,7 @@
             $_SESSION["name"] = "";
             $_SESSION["phone"] = "";
             $_SESSION["email"] = "";
-            header('location: thank-you.php');
+            header('location: index.php');
             exit; 
         }
 
