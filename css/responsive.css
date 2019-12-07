@@ -3,6 +3,9 @@
     .main-header{
         width: 900px;
     }
+    .mobile-menu{
+        display: none;
+    }
     .funfact-area{
         padding-bottom: 50px;
         padding-top: 50px;
@@ -107,6 +110,9 @@
     /* Header */
     .main-header{
         width: 800px;
+    }
+    .mobile-menu{
+        display: none;
     }
     #navbar{
         margin-left: 100px;
@@ -262,6 +268,9 @@
     /* Header */
     .main-header{
         width: 700px;
+    }
+    .mobile-menu{
+        display: none;
     }
     #navbar{
        margin-left: 100px;
